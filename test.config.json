@@ -1,0 +1,36 @@
+[
+  {
+    "evaluation_type": "React Jest",
+    "testcases": [
+      {
+        "name": "Add_EmptyField_FEreact",
+        "weightage": 0.2
+      },
+      {
+        "name": "AddUser_FEreact",
+        "weightage": 0.2
+      },
+      {
+        "name": "GetAllUsers_FEreact",
+        "weightage": 0.2
+      },
+      {
+        "name": "HomePage_FEreact",
+        "weightage": 0.2
+      }
+    ],
+    "testcase_run_command": "sh /home/coder/project/workspace/react/react.sh",
+    "testcase_path": "/home/coder/project/workspace/react"
+  },
+  {
+    "evaluation_type": "NUnit",
+    "testcases": [
+      {
+        "name": "GetAll_TestAll",
+        "weightage": 0.4
+      }
+    ],
+    "testcase_run_command": "sh /home/coder/project/workspace/nunit/run.sh",
+    "testcase_path": "/home/coder/project/workspace/nunit"
+  }
+]

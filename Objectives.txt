@@ -1,0 +1,92 @@
+Objective: 
+
+DryRun Project is the user management project to add user, edit usr details and delete.
+
+Functional Requirements: 
+
+Testing dotnet environment with CRUD operation
+
+Front End 
+
+React 16+ 
+
+Bootstrap 
+
+
+Server Side 
+
+Dotnet Framework 5.0
+Webapi 
+
+
+Database 
+
+MsSqlServer 
+
+
+React:
+
+In the terminal window type 'cd reactapp'
+
+To install dependency run 'npm install'
+
+To start/run the application 'npm start'
+
+
+DotNet WebAPI 
+
+To install dependency run 'dotnet add package'
+
+To start/run the application 'dotnet run'
+
+
+API Endpoint
+
+Click port 8080 and use that URL as API Endpoint for React.
+
+
+MsSQLServer Setup:
+
+sqlcmd -U sa 
+-P examlyMssql@123
+
+To find out the servername use the below command:
+SELECT @@SERVERNAME
+
+To create a database:
+
+create database database_name
+go
+
+The  Sample Connection String for reference:
+
+"User ID=sa;
+password=examlyMssql@123;
+server=effddfdaeebcfacbdcbaeafbffbbccacdb-0;
+Database=NeoUser;"
+
+
+
+Git Commands:
+
+To add the changes
+
+git add ./reactapp/
+
+git add ./dotnetapp/
+
+To commit the changes
+
+git commit -m "commit message"
+
+To create a new branch
+
+git branch -m branch_name
+
+To push the code in repo
+
+git push -u origin branch_name
+
+To Pull the previous code
+
+git pull origin branch_name
